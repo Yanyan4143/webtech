@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College-ACT Diary</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="icon" type="act-icon" href="act1.png">
+</head>
+<body>
+    <header>
+        <div class="navhead">
+            <div class="iconic"><img src="act1.png" width="100px" height="100px"></div>
+        
+            <div class="nav-bar"> 
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="contact.html">Contact</a></li>
+   
+            </div>
+            </div> 
+    </header>
+     <section class="about-wrapper">     
+           <div class="profile">
+            <img src="profile.jpg" width="400px" height="400px" style="border-radius: 50%;">
+            </div>   
+            
+            <div class="prof-text" style="font-size: 22.5px;">
+                <p>Hi! I'm <strong>Christian Paul Atillo</strong>, I'm a <strong>Front-End Developer</strong> and i build this page</p>
+                <p>for our project in school. It's called <strong>College Day</strong> a diary through out</p>
+                <p>our semester, Where lots of fascinating events happens.</p>
+            </div>
+     </section>
+     <section class="school">
+      <div class="billiard-context">
+      <h1>Building future and creating memories</h1>
+      <p><strong>ACT</strong> an aspiring school in cebu city and excellent</p>
+      <p>in the field of teaching vast courses.</p>
+      <p>inspiring students and creating future careers.</p>
+
+      </div>
+
+      <div class="billiard">
+      <img src="cube.png" width="645" height="450"/>
+      </div>
+     </section>
+     <section class="">
+        
+     </section>
+     <section class="self">
+        <div class="table">
+            <img src="table.png" width="645" height="450"/>
+            </div>
+
+        <div class="self-context">
+        <h1>Transparent and innovation</h1>
+        <p><strong>ACT</strong> is a home of <strong>innovative programmers</strong> and the idealogy</p>
+        <p>of students are expand. Connected within the ever changing tecnology</p>
+        </div>      
+       </section>  
+       <script>
+       ScrollReveal({
+        //reset:true,
+        distance: '80px',
+        duration: 2500,
+        delay: 20
+        });
+        
+        ScrollReveal().reveal('.profile, .billiard-context, .table',{ delay: 1, origin: 'left', });
+        ScrollReveal().reveal('.prof-text, .billiard, .self-context',{ delay: 1, origin: 'right', interval: 200});
+        </script>
+       <footer>
+        <div class="navfoot-about">
+        <div class="footer-nav">     
+        </div>
+            
+        </div>
+       </footer>
+    
+</body>
+</html>
